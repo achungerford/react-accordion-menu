@@ -4,9 +4,10 @@ import Accordion from "./Accordion";
 const App = () => {
   return (
     <div className="container">
-      <Header /> Accordion below
+      <Header />
+      <Accordion />
     </div>
-  )
-}
+  );
+};
 
 export default App;
