@@ -1,8 +1,6 @@
 import { faqs } from "../data";
 import AccordionItem from "./AccordionItem";
 
-import React from 'react'
-
 const Accordion = () => {
   return (
     <ul className="accordion">
@@ -10,7 +8,7 @@ const Accordion = () => {
         <AccordionItem key={index} faq={faq} />
       ))}
     </ul>
-  )
-}
+  );
+};
 
-export default Accordion
+export default Accordion;
