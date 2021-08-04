@@ -1,9 +1,11 @@
+import Header from "./Header";
+
 const App = () => {
   return (
     <div className="container">
-      Header and Accordion here
+      <Header /> Accordion below
     </div>
   )
 }
 
-export default App
+export default App;
