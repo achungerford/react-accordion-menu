@@ -1,4 +1,5 @@
 import Header from "./Header";
+import Accordion from "./Accordion";
 
 const App = () => {
   return (
